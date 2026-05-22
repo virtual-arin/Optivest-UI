@@ -12,7 +12,7 @@ const port = process.env.PORT;
 
 app.use(
   cors({
-    origin: "https://optivest.onrender.com",
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
